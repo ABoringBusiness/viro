@@ -63,6 +63,7 @@ import {
   ViroARSupportResponse,
 } from "./components/Utilities/ViroUtils";
 import { ViroARCamera } from "./components/AR/ViroARCamera";
+import { ViroLidarPointCloud } from "./components/AR/ViroLidarPointCloud";
 import {
   ViroHoverEvent,
   ViroClickEvent,
@@ -127,6 +128,8 @@ import {
 import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
+import { getViroDeviceCapabilities } from "./components/Utilities/ViroCapabilities";
+import { useARTracking, useARHitTest, useViroTheme } from "./components/Hooks";
 
 export {
   ViroARImageMarker,
@@ -136,6 +139,7 @@ export {
   ViroARPlaneSelector,
   ViroARScene,
   ViroARSceneNavigator,
+  ViroLidarPointCloud,
   ViroBox,
   ViroButton,
   ViroCamera,
@@ -185,6 +189,7 @@ export {
   polarToCartesian,
   polarToCartesianActual,
   isARSupportedOnDevice,
+  getViroDeviceCapabilities,
   // Types
   ViroARSupportResponse,
   ViroHoverEvent,
@@ -249,4 +254,8 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
+  // Hooks
+  useARTracking,
+  useARHitTest,
+  useViroTheme,
 };

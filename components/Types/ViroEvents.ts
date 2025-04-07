@@ -45,8 +45,19 @@ export enum ViroClickStateTypes {
   CLICKED = 3, // Clicked: Triggered when the user has performed both a click down and click up action on this control sequentially, thereby having "Clicked" the object.|
 }
 
+export enum ViroTouchStateTypes {
+  TOUCH_DOWN = 1,
+  TOUCH_MOVE = 2,
+  TOUCH_UP = 3,
+}
+
+export type ViroTouchState = 
+  | ViroTouchStateTypes.TOUCH_DOWN
+  | ViroTouchStateTypes.TOUCH_MOVE
+  | ViroTouchStateTypes.TOUCH_UP;
+
 export type ViroTouchEvent = {
-  touchState: any; // TODO: is there a better type for this?
+  touchState: ViroTouchState;
   touchPos: Viro3DPoint;
   source: ViroSource;
 };
@@ -56,8 +67,19 @@ export type ViroScrollEvent = {
   source: ViroSource;
 };
 
+export enum ViroSwipeStateTypes {
+  SWIPE_START = 1,
+  SWIPE_MOVE = 2,
+  SWIPE_END = 3,
+}
+
+export type ViroSwipeState = 
+  | ViroSwipeStateTypes.SWIPE_START
+  | ViroSwipeStateTypes.SWIPE_MOVE
+  | ViroSwipeStateTypes.SWIPE_END;
+
 export type ViroSwipeEvent = {
-  swipeState: any; // TODO: is there a better type for this?
+  swipeState: ViroSwipeState;
   source: ViroSource;
 };
 
@@ -223,10 +245,24 @@ export type ViroARAnchorFoundEvent = {
   anchorFoundMap: ViroAnchorFoundMap;
   anchor: ViroAnchor;
 };
-export type ViroAnchor = any;
+export type ViroAnchor = {
+  anchorId: string;
+  position: Viro3DPoint;
+  rotation: ViroRotation;
+  scale: Viro3DPoint;
+  type: string;
+};
 
-export type ViroAnchorFoundMap = any;
-export type ViroAnchorUpdatedMap = any;
+export type ViroAnchorFoundMap = {
+  [key: string]: {
+    position: Viro3DPoint;
+    rotation: ViroRotation;
+    scale: Viro3DPoint;
+    type: string;
+  };
+};
+
+export type ViroAnchorUpdatedMap = ViroAnchorFoundMap;
 
 /** ===========================================================================
  * Viro AR Plane Events
