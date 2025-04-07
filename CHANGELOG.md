@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v2.43.0 - 7 April 2025
+
+- Updated to support React Native 0.77.0
+- Updated iOS podspec to use React-Core dependency
+- Updated Android Gradle configuration for compatibility with React Native 0.77.0
+- Updated Android ExoPlayer to version 1.2.1
+- Increased minimum iOS version to 13.0
+- Increased minimum Android SDK version to 26
+
 ## v2.42.0 - 7 February 2025
 
 - Compatibility with Expo 52
