@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v2.44.0 - 7 April 2025
+
+- Added React hooks for AR tracking and hit testing
+- Added support for dark mode with useViroTheme hook
+- Added ViroLidarPointCloud component for iOS LiDAR sensors
+- Added utility for checking device AR/VR capabilities
+- Improved TypeScript definitions for better developer experience
+- Fixed various type issues and added missing type definitions
+
 ## v2.43.0 - 7 April 2025
 
 - Updated to support React Native 0.77.0
