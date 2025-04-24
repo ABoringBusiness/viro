@@ -140,6 +140,12 @@ import {
   AudioPlayer,
   VoiceRecognition,
 } from "./components/SwiftAI";
+import {
+  GlassChatBubble,
+  GlassChatBubbleManager,
+  GlassChatOverlay,
+  SwiftAIWithChatBubbles,
+} from "./components/GlassChatBubbles";
 
 export {
   ViroARImageMarker,
@@ -271,4 +277,8 @@ export {
   SwiftAIClient,
   AudioPlayer,
   VoiceRecognition,
+  GlassChatBubble,
+  GlassChatBubbleManager,
+  GlassChatOverlay,
+  SwiftAIWithChatBubbles,
 };
