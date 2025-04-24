@@ -127,6 +127,7 @@ import {
 import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
+import { GlowEffect } from "./components/GlowEffect";
 
 export {
   ViroARImageMarker,
@@ -249,4 +250,5 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
+  GlowEffect,
 };
