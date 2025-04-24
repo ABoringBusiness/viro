@@ -128,6 +128,12 @@ import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
 import { GlowEffect } from "./components/GlowEffect";
+import {
+  KinesteXSDK,
+  IntegrationOption,
+  PlanCategory,
+  Lifestyle,
+} from "./components/KinesteX";
 
 export {
   ViroARImageMarker,
@@ -251,4 +257,8 @@ export {
   ViroStyle,
   VIRO_VERSION,
   GlowEffect,
+  KinesteXSDK,
+  IntegrationOption,
+  PlanCategory,
+  Lifestyle,
 };
