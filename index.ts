@@ -134,6 +134,12 @@ import {
   PlanCategory,
   Lifestyle,
 } from "./components/KinesteX";
+import {
+  SwiftAI,
+  SwiftAIClient,
+  AudioPlayer,
+  VoiceRecognition,
+} from "./components/SwiftAI";
 
 export {
   ViroARImageMarker,
@@ -261,4 +267,8 @@ export {
   IntegrationOption,
   PlanCategory,
   Lifestyle,
+  SwiftAI,
+  SwiftAIClient,
+  AudioPlayer,
+  VoiceRecognition,
 };
