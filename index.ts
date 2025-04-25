@@ -127,6 +127,11 @@ import {
 import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
+import { 
+  ViroPriceTracker,
+  ViroPriceTrackerService,
+  ViroPriceTrackerDemo
+} from "./components/PriceTracker";
 
 export {
   ViroARImageMarker,
@@ -249,4 +254,8 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
+  // Price Tracker Integration
+  ViroPriceTracker,
+  ViroPriceTrackerService,
+  ViroPriceTrackerDemo,
 };
