@@ -127,6 +127,11 @@ import {
 import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
+import { 
+  ViroVideoRecorder,
+  ViroVideoRecorderService,
+  ViroVideoRecorderDemo
+} from "./components/VideoRecorder";
 
 export {
   ViroARImageMarker,
@@ -249,4 +254,8 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
+  // Video Recorder Integration
+  ViroVideoRecorder,
+  ViroVideoRecorderService,
+  ViroVideoRecorderDemo,
 };
