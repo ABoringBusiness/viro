@@ -127,6 +127,11 @@ import {
 import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
+import { 
+  ViroFoodRecipe,
+  ViroFoodRecipeService,
+  ViroFoodRecipeDemo
+} from "./components/FoodRecipe";
 
 export {
   ViroARImageMarker,
@@ -249,4 +254,8 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
+  // Food Recipe Integration
+  ViroFoodRecipe,
+  ViroFoodRecipeService,
+  ViroFoodRecipeDemo,
 };
