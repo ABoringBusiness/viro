@@ -127,6 +127,11 @@ import {
 import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
+import { 
+  ViroObjectRecognition, 
+  ViroObjectRecognitionService,
+  ViroObjectRecognitionDemo
+} from "./components/ObjectRecognition";
 
 export {
   ViroARImageMarker,
@@ -249,4 +254,8 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
+  // Object Recognition
+  ViroObjectRecognition,
+  ViroObjectRecognitionService,
+  ViroObjectRecognitionDemo,
 };
