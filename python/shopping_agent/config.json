@@ -1,0 +1,51 @@
+{
+  "api_keys": {
+    "openai": "YOUR_OPENAI_API_KEY",
+    "google_cloud_vision": "path/to/google-cloud-credentials.json",
+    "amazon_product_api": {
+      "access_key": "YOUR_AMAZON_ACCESS_KEY",
+      "secret_key": "YOUR_AMAZON_SECRET_KEY",
+      "partner_tag": "YOUR_AMAZON_PARTNER_TAG",
+      "region": "us-east-1"
+    },
+    "walmart_api": {
+      "client_id": "YOUR_WALMART_CLIENT_ID",
+      "client_secret": "YOUR_WALMART_CLIENT_SECRET"
+    },
+    "ebay_api": {
+      "app_id": "YOUR_EBAY_APP_ID",
+      "cert_id": "YOUR_EBAY_CERT_ID",
+      "dev_id": "YOUR_EBAY_DEV_ID"
+    }
+  },
+  "settings": {
+    "confidence_threshold": 0.7,
+    "max_results": 5,
+    "timeout": 30,
+    "cache_expiration": 3600,
+    "enable_price_tracking": true,
+    "enable_notifications": true,
+    "default_currency": "USD"
+  },
+  "database": {
+    "type": "sqlite",
+    "path": "shopping_agent.db"
+  },
+  "notification": {
+    "email": {
+      "enabled": false,
+      "smtp_server": "smtp.example.com",
+      "smtp_port": 587,
+      "username": "your_email@example.com",
+      "password": "your_email_password",
+      "from_address": "shopping_agent@example.com"
+    },
+    "sms": {
+      "enabled": false,
+      "provider": "twilio",
+      "account_sid": "YOUR_TWILIO_ACCOUNT_SID",
+      "auth_token": "YOUR_TWILIO_AUTH_TOKEN",
+      "from_number": "+1234567890"
+    }
+  }
+}
