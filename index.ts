@@ -132,6 +132,11 @@ import {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo
 } from "./components/ObjectRecognition";
+import {
+  ViroObjectDetection,
+  ViroDigitalInkRecognition,
+  ViroSmartReplies
+} from "./components/MLKit";
 
 export {
   ViroARImageMarker,
@@ -258,4 +263,9 @@ export {
   ViroObjectRecognition,
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
+  
+  // ML Kit
+  ViroObjectDetection,
+  ViroDigitalInkRecognition,
+  ViroSmartReplies,
 };
