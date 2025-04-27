@@ -132,6 +132,12 @@ import {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo
 } from "./components/ObjectRecognition";
+import {
+  ViroTextToSpeech,
+  TextToSpeechEngine,
+  TextToSpeechVoiceGender,
+  TextToSpeechState
+} from "./components/TextToSpeech";
 
 export {
   ViroARImageMarker,
@@ -258,4 +264,10 @@ export {
   ViroObjectRecognition,
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
+  
+  // Text-to-Speech
+  ViroTextToSpeech,
+  TextToSpeechEngine,
+  TextToSpeechVoiceGender,
+  TextToSpeechState,
 };
