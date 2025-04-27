@@ -132,6 +132,17 @@ import {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo
 } from "./components/ObjectRecognition";
+import {
+  ViroARInteractionManager,
+  InteractionType,
+  InteractionState,
+  ViroARObjectInteraction,
+  ObjectInteractionMode,
+  ViroGestureRecognizer,
+  GestureType,
+  ViroVoiceInteraction,
+  ViroARInteractionDemo
+} from "./components/ARInteractionEnhancement";
 
 export {
   ViroARImageMarker,
@@ -258,4 +269,15 @@ export {
   ViroObjectRecognition,
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
+  
+  // AR Interaction Enhancement
+  ViroARInteractionManager,
+  InteractionType,
+  InteractionState,
+  ViroARObjectInteraction,
+  ObjectInteractionMode,
+  ViroGestureRecognizer,
+  GestureType,
+  ViroVoiceInteraction,
+  ViroARInteractionDemo,
 };
