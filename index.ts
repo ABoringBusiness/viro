@@ -132,6 +132,13 @@ import {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo
 } from "./components/ObjectRecognition";
+import {
+  ViroARAssistant,
+  ARAssistantState,
+  ARAssistantProvider,
+  useARAssistant,
+  ViroARAssistantDemo
+} from "./components/ARAssistant";
 
 export {
   ViroARImageMarker,
@@ -258,4 +265,11 @@ export {
   ViroObjectRecognition,
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
+  
+  // AR Assistant
+  ViroARAssistant,
+  ARAssistantState,
+  ARAssistantProvider,
+  useARAssistant,
+  ViroARAssistantDemo,
 };
