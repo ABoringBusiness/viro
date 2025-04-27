@@ -1,0 +1,10 @@
+export * from './ViroARAssistantCharacter';
+export { default as ViroARAssistantCharacter } from './ViroARAssistantCharacter';
+export * from './ViroARAssistantLipSync';
+export { default as ViroARAssistantLipSync } from './ViroARAssistantLipSync';
+export * from './ViroARAssistantAnimations';
+export { default as ViroARAssistantAnimations } from './ViroARAssistantAnimations';
+export * from './ViroARAssistantMaterials';
+export { default as ViroARAssistantMaterials } from './ViroARAssistantMaterials';
+export * from './ViroARAssistantCharacterDemo';
+export { default as ViroARAssistantCharacterDemo } from './ViroARAssistantCharacterDemo';
