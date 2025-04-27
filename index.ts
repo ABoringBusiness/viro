@@ -132,6 +132,11 @@ import {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo
 } from "./components/ObjectRecognition";
+import {
+  ViroSpeechRecognition,
+  SpeechRecognitionEngine,
+  SpeechRecognitionState
+} from "./components/SpeechRecognition";
 
 export {
   ViroARImageMarker,
@@ -258,4 +263,9 @@ export {
   ViroObjectRecognition,
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
+  
+  // Speech Recognition
+  ViroSpeechRecognition,
+  SpeechRecognitionEngine,
+  SpeechRecognitionState,
 };
