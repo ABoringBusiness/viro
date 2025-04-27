@@ -132,6 +132,15 @@ import {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo
 } from "./components/ObjectRecognition";
+import {
+  ViroARAssistantCharacter,
+  AssistantCharacterState,
+  AssistantCharacterType,
+  ViroARAssistantLipSync,
+  ViroARAssistantAnimations,
+  ViroARAssistantMaterials,
+  ViroARAssistantCharacterDemo
+} from "./components/ARAssistantCharacter";
 
 export {
   ViroARImageMarker,
@@ -258,4 +267,13 @@ export {
   ViroObjectRecognition,
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
+  
+  // AR Assistant Character
+  ViroARAssistantCharacter,
+  AssistantCharacterState,
+  AssistantCharacterType,
+  ViroARAssistantLipSync,
+  ViroARAssistantAnimations,
+  ViroARAssistantMaterials,
+  ViroARAssistantCharacterDemo,
 };
