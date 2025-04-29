@@ -132,6 +132,16 @@ import {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo
 } from "./components/ObjectRecognition";
+import {
+  ViroNaturalLanguageUnderstanding,
+  NLUEngine,
+  ViroIntentHandler,
+  ViroConversationManager,
+  ConversationState,
+  ViroEntityExtractor,
+  EntityType,
+  ViroNLUDemo
+} from "./components/NaturalLanguageUnderstanding";
 
 export {
   ViroARImageMarker,
@@ -258,4 +268,14 @@ export {
   ViroObjectRecognition,
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
+  
+  // Natural Language Understanding
+  ViroNaturalLanguageUnderstanding,
+  NLUEngine,
+  ViroIntentHandler,
+  ViroConversationManager,
+  ConversationState,
+  ViroEntityExtractor,
+  EntityType,
+  ViroNLUDemo,
 };
