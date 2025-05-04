@@ -132,6 +132,16 @@ import {
   ViroRealEstateService,
   ViroRealEstateARDemo
 } from "./components/RealEstateAR";
+import {
+  ViroChatGPTVision,
+  ViroChatGPTVisionService,
+  ViroChatGPTVisionDemo
+} from "./components/ChatGPTVision";
+import {
+  ViroObjectRecognition, 
+  ViroObjectRecognitionService,
+  ViroObjectRecognitionDemo
+} from "./components/ObjectRecognition";
 
 export {
   ViroARImageMarker,
@@ -254,8 +264,19 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
+  
   // Real Estate AR Integration
   ViroRealEstateAR,
   ViroRealEstateService,
   ViroRealEstateARDemo,
+  
+  // ChatGPT Vision Integration
+  ViroChatGPTVision,
+  ViroChatGPTVisionService,
+  ViroChatGPTVisionDemo,
+
+  // Object Recognition
+  ViroObjectRecognition,
+  ViroObjectRecognitionService,
+  ViroObjectRecognitionDemo,
 };
