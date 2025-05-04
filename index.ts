@@ -132,6 +132,12 @@ import {
   ViroChatGPTVisionService,
   ViroChatGPTVisionDemo
 } from "./components/ChatGPTVision";
+import {
+  ViroObjectRecognition, 
+  ViroObjectRecognitionService,
+  ViroObjectRecognitionDemo
+} from "./components/ObjectRecognition";
+
 
 export {
   ViroARImageMarker,
@@ -254,8 +260,15 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
+
   // ChatGPT Vision Integration
   ViroChatGPTVision,
   ViroChatGPTVisionService,
   ViroChatGPTVisionDemo,
+
+  // Object Recognition
+  ViroObjectRecognition,
+  ViroObjectRecognitionService,
+  ViroObjectRecognitionDemo,
+
 };
