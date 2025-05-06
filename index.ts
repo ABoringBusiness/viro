@@ -139,6 +139,18 @@ import {
 } from "./components/ObjectRecognition";
 
 import { GlowEffect } from "./components/GlowEffect";
+import {
+  KinesteXSDK,
+  IntegrationOption,
+  PlanCategory,
+  Lifestyle,
+} from "./components/KinesteX";
+import {
+  SwiftAI,
+  SwiftAIClient,
+  AudioPlayer,
+  VoiceRecognition,
+} from "./components/SwiftAI";
 
 export {
   ViroARImageMarker,
@@ -273,4 +285,12 @@ export {
   ViroObjectRecognitionDemo,
 
   GlowEffect,
+  KinesteXSDK,
+  IntegrationOption,
+  PlanCategory,
+  Lifestyle,
+  SwiftAI,
+  SwiftAIClient,
+  AudioPlayer,
+  VoiceRecognition,
 };
