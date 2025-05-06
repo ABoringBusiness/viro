@@ -139,6 +139,12 @@ import {
 } from "./components/ObjectRecognition";
 
 import { GlowEffect } from "./components/GlowEffect";
+import {
+  KinesteXSDK,
+  IntegrationOption,
+  PlanCategory,
+  Lifestyle,
+} from "./components/KinesteX";
 
 export {
   ViroARImageMarker,
@@ -273,4 +279,8 @@ export {
   ViroObjectRecognitionDemo,
 
   GlowEffect,
+  KinesteXSDK,
+  IntegrationOption,
+  PlanCategory,
+  Lifestyle,
 };
