@@ -128,6 +128,11 @@ import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
 import { 
+  ViroRealEstateAR,
+  ViroRealEstateService,
+  ViroRealEstateARDemo
+} from "./components/RealEstateAR";
+import {
   ViroChatGPTVision,
   ViroChatGPTVisionService,
   ViroChatGPTVisionDemo
@@ -138,13 +143,6 @@ import {
   ViroObjectRecognitionDemo
 } from "./components/ObjectRecognition";
 
-import { GlowEffect } from "./components/GlowEffect";
-import {
-  KinesteXSDK,
-  IntegrationOption,
-  PlanCategory,
-  Lifestyle,
-} from "./components/KinesteX";
 
 export {
   ViroARImageMarker,
@@ -267,7 +265,12 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
-
+  
+  // Real Estate AR Integration
+  ViroRealEstateAR,
+  ViroRealEstateService,
+  ViroRealEstateARDemo,
+  
   // ChatGPT Vision Integration
   ViroChatGPTVision,
   ViroChatGPTVisionService,
@@ -278,9 +281,4 @@ export {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
 
-  GlowEffect,
-  KinesteXSDK,
-  IntegrationOption,
-  PlanCategory,
-  Lifestyle,
 };
