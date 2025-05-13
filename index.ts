@@ -138,7 +138,6 @@ import {
   ViroObjectRecognitionDemo
 } from "./components/ObjectRecognition";
 
-import { GlowEffect } from "./components/GlowEffect";
 
 export {
   ViroARImageMarker,
@@ -272,5 +271,4 @@ export {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
 
-  GlowEffect,
 };
