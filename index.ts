@@ -140,6 +140,8 @@ import {
 
 import GlowEffect, { GlowButton } from "components/GlowEffect";
 
+import VoiceAssistant from "./components/VoiceAssistant";
+
 export {
   ViroARImageMarker,
   ViroARObjectMarker,
@@ -275,4 +277,7 @@ export {
   // Glow Effect
   GlowEffect,
   GlowButton,
+
+  //VoiceAssistant
+  VoiceAssistant,
 };
