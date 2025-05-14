@@ -127,17 +127,18 @@ import {
 import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
-import { 
+import {
   ViroChatGPTVision,
   ViroChatGPTVisionService,
-  ViroChatGPTVisionDemo
+  ViroChatGPTVisionDemo,
 } from "./components/ChatGPTVision";
 import {
-  ViroObjectRecognition, 
+  ViroObjectRecognition,
   ViroObjectRecognitionService,
-  ViroObjectRecognitionDemo
+  ViroObjectRecognitionDemo,
 } from "./components/ObjectRecognition";
 
+import GlowEffect, { GlowButton } from "components/GlowEffect";
 
 export {
   ViroARImageMarker,
@@ -271,4 +272,7 @@ export {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
 
+  // Glow Effect
+  GlowEffect,
+  GlowButton,
 };
