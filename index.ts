@@ -127,16 +127,25 @@ import {
 import { ViroSurface } from "./components/ViroSurface";
 import { ViroSceneNavigator } from "./components/ViroSceneNavigator";
 import { VIRO_VERSION } from "./components/Utilities/ViroVersion";
-import { 
-  ViroObjectRecognition, 
+import {
+  ViroChatGPTVision,
+  ViroChatGPTVisionService,
+  ViroChatGPTVisionDemo,
+} from "./components/ChatGPTVision";
+import {
+  ViroObjectRecognition,
   ViroObjectRecognitionService,
-  ViroObjectRecognitionDemo
+  ViroObjectRecognitionDemo,
 } from "./components/ObjectRecognition";
 import {
   ViroObjectDetection,
   ViroDigitalInkRecognition,
-  ViroSmartReplies
+  ViroSmartReplies,
 } from "./components/MLKit";
+
+import GlowEffect, { GlowButton } from "components/GlowEffect";
+
+import VoiceAssistant from "./components/VoiceAssistant";
 
 export {
   ViroARImageMarker,
@@ -259,13 +268,26 @@ export {
   ViroTextStyle,
   ViroStyle,
   VIRO_VERSION,
+
+  // ChatGPT Vision Integration
+  ViroChatGPTVision,
+  ViroChatGPTVisionService,
+  ViroChatGPTVisionDemo,
+
   // Object Recognition
   ViroObjectRecognition,
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
-  
+
   // ML Kit
   ViroObjectDetection,
   ViroDigitalInkRecognition,
   ViroSmartReplies,
+
+  // Glow Effect
+  GlowEffect,
+  GlowButton,
+
+  //VoiceAssistant
+  VoiceAssistant,
 };
