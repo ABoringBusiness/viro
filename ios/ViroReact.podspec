@@ -16,4 +16,9 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
   s.platform            = :ios, '10.0'
   s.dependency 'React'
+  
+  # ML Kit dependencies
+  s.dependency 'GoogleMLKit/ObjectDetection', '6.0.0'
+  s.dependency 'GoogleMLKit/DigitalInkRecognition', '6.0.0'
+  s.dependency 'GoogleMLKit/SmartReply', '6.0.0'
 end

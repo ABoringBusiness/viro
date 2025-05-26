@@ -137,6 +137,11 @@ import {
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
 } from "./components/ObjectRecognition";
+import {
+  ViroObjectDetection,
+  ViroDigitalInkRecognition,
+  ViroSmartReplies,
+} from "./components/MLKit";
 
 import GlowEffect, { GlowButton } from "components/GlowEffect";
 
@@ -273,6 +278,11 @@ export {
   ViroObjectRecognition,
   ViroObjectRecognitionService,
   ViroObjectRecognitionDemo,
+
+  // ML Kit
+  ViroObjectDetection,
+  ViroDigitalInkRecognition,
+  ViroSmartReplies,
 
   // Glow Effect
   GlowEffect,
